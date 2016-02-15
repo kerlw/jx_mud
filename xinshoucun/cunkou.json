@@ -1,0 +1,7 @@
+{
+	"name":"村口",
+	"desc":"一个小村落依山而建，三五间茅屋分散在一个池塘的周围。",
+	"exits": {
+		"east" : "xinshoucun/cunzhongyang"
+	}
+}
