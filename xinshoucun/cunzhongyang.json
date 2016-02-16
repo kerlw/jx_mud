@@ -6,5 +6,8 @@
 	},
 	"exits": {
 		"west" : "xinshoucun/cunkou"
+	},
+	"objs" : {
+		"xinshoucun/npc/laocunzhang" : 1
 	}
 }
