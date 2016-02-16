@@ -1,6 +1,9 @@
 {
 	"name":"村外",
 	"desc":"东边不远处似乎有一个小村落。",
+	"kvs" : {
+		"no_fight" : 1
+	},
 	"exits": {
 		"east" : "xinshoucun/cunkou"
 	}

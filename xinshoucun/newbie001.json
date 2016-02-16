@@ -1,6 +1,9 @@
 {
 	"name":"世界入口",
 	"desc":"这里云雾缭绕仿如仙境，却又缺乏光线，什么也看不清，从东方隐隐约约传来人声。",
+	"kvs" : {
+		"no_fight" : 1
+	},
 	"exits": {
 		"east" : "xinshoucun/newbie002"
 	}

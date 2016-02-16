@@ -1,6 +1,9 @@
 {
 	"name":"村中央",
 	"desc":"小村落的中央地带，周围是几间茅屋。",
+	"kvs" : {
+		"no_fight" : 1
+	},
 	"exits": {
 		"west" : "xinshoucun/cunkou"
 	}
