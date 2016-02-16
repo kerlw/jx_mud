@@ -1,0 +1,15 @@
+{
+	"name":"十字街头",
+	"desc":"孙咋~~~~~别站路口！！！没看见斑马线么？！！！！说的就是你！",
+	"exits": {
+		"north" : "wuhan/zhuquedajie001",
+		"south" : "wuhan/xuanwudajie001",
+		"west" : "wuhan/qinglongdajie001",
+		"east" : "wuhan/baihudajie001"
+	},
+	"objs": {
+		"wuhan/npc/jiaojing" : 1,
+		"wuhan/npc/xiejing" : 8
+	}
+}
+

@@ -1,0 +1,12 @@
+{
+	"name":"有间客栈",
+	"desc":"百年老店（黑店），品质可靠（下刀不犹豫），信誉至上（坑你没商量）。",
+	"exits": {
+		"south" : "wuhan/qinglongdajie001"
+	},
+	"objs": {
+		"wuhan/npc/heizhanggui" : 1,
+		"wuhan/npc/heixiaoer" : 1
+	}
+}
+

@@ -1,0 +1,13 @@
+{
+	"name":"青龙大街",
+	"desc":"因为在修“地龙三十六号线”前方道路封闭施工",
+	"exits": {
+		"east" : "wuhan/shizijietou",
+		"north" : "wuhan/youjiankezhan"
+		
+	},
+	"objs": {
+		
+	}
+}
+

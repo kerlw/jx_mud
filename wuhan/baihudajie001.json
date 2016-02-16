@@ -1,0 +1,13 @@
+{
+	"name":"白虎大街",
+	"desc":"去往何处，你不知晓。路上会遇到麻匪还是美女？看你的运气了。",
+	"exits": {
+		"south" : "xinshoucun/newbie001",
+		"east" : "wuhan/baihudajie002",
+		"west" : "wuhan/shizijietou"
+	},
+	"objs": {
+		
+	}
+}
+

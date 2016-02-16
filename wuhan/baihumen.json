@@ -1,0 +1,11 @@
+{
+	"name":"白虎门",
+	"desc":"出去就是东三环了，马车上三环要交ETC的，亲，你办ETC了不？想不交钱？可以打赢那20个ETC收费员先~~~~",
+	"exits": {
+		"west" : "wuhan/baihudajie005"
+	},
+	"objs": {
+		"wuhan/npc/etcshoufeiyuan" : 20
+	}
+}
+

@@ -5,6 +5,7 @@
 		"no_fight" : 1
 	},
 	"exits": {
+		"north" : "wuhan/baihudajie001",
 		"east" : "xinshoucun/newbie002"
 	}
 }
