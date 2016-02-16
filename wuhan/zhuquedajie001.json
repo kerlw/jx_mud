@@ -1,0 +1,11 @@
+{
+	"name":"朱雀大街",
+	"desc":"因为在修“地龙七十八号线”前方道路封闭施工",
+	"exits": {
+		"south" : "wuhan/shizijietou"
+	},
+	"objs": {
+		
+	}
+}
+
