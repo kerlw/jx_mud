@@ -1,4 +1,5 @@
 var fm = require('framework');
+var skill_fun = require('../../fun/skill_fun.js');
 
 var taijiquan = fm.extend(function() {
 	if (!(this instanceof taijiquan))
@@ -52,58 +53,15 @@ taijiquan.prototype.damage = function(me, use_lv, other) {
 	if (!me.skills['taijiquan']) {
 		return null;
 	}
-	// 内功伤害
-	jiali=0;
-	
+
+	jiali=0;	// 内功伤害
+
 	// 外功伤害= (层级+基本等级/4+武学修养/4 + 武器熟练等级/4)* combat伤害/combat系数 * 2 * stats绝招伤害加成
 	zhaoshichengji = Math.ceil( use_lv / 10);	// 层级
-	combatratio = 20;// combat系数
-	switch (zhaoshichengji) {
-		case 1:
-		case 2:
-		case 3:
-			combatratio = 20; break;
-		case 4:
-		case 5:
-		case 6:
-			combatratio = 18; break;
-		case 7:
-		case 8:
-		case 9:
-			combatratio = 16; break;
-		case 10:
-			combatratio = 12; break;
-	}
-
-	//combat = 1 + ( ( zhaoshichengji - 1 ) / 10 ) * 1; // combat伤害
-	combat = 0;
-	switch (zhaoshichengji) {
-		case 1:
-			combat = 1; break;
-		case 2:
-			combat = 1.1; break;
-		case 3:
-			combat = 1.2; break;
-		case 4:
-			combat = 1.3; break;
-		case 5:
-			combat = 1.4; break;
-		case 6:
-			combat = 1.5; break;
-		case 7:
-			combat = 1.6; break;
-		case 8:
-			combat = 1.7; break;
-		case 9:
-			combat = 1.8; break;
-		case 10:
-			combat = 1.9; break;
-	}
-
+	combatratio = skill_fun.combat.ratio('taijiquan', use_lv);	// combat系数
+	combat = skill_fun.combat.damage('taijiquan', use_lv);	// combat伤害
 	zhaoshi = ( zhaoshichengji + use_lv / 4 + 0 + 0 ) * ( combat / combatratio ) * 2 * 1;
-	
-	// 武器伤害
-	wuqi = 0;
+	wuqi = 0;	// 武器伤害
 	
 	// 总伤害 = 内功伤害 + 外功伤害 + 武器伤害
 	other_vitality = Math.ceil(jiali + zhaoshi + wuqi);
