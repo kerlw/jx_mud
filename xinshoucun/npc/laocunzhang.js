@@ -4,9 +4,10 @@ var laocunzhang = fm.extend(function() {
 	this.name = "老村长";
 	this.desc = ""
 	this.quests = {
-		first : {
+		kill_rat : {
+			key : "kill_rat",
 			target : "xingshoucun/npc/boar",
-			desc : "村南山脚的田地里经常有山里的野猪出没，请帮助村民们猎杀#s(HIR)$count$#e(HIR)只野猪吧。",
+			desc : "村子南边的打谷场上是村民们晒谷子的地方，经常有老鼠光顾，请帮助村民们捕杀$(HIR) $count$ $NOR只老鼠吧。",
 			type : "kill",
 			count : 4,
 			reward : {
@@ -15,7 +16,7 @@ var laocunzhang = fm.extend(function() {
 			}
 		}
 	}
-	this.add_inquiry("kill_boar", "帮助猎杀野猪", this.kill_boar_quest);
+	this.add_inquiry("kill_boar", "帮助捕杀老鼠", this.inquiry_kill_boar);
 }, fm.NPC);
 
 laocunzhang.prototype.visiable_inquiry = function(id, who) {
@@ -24,9 +25,8 @@ laocunzhang.prototype.visiable_inquiry = function(id, who) {
 	return 0;
 }
 
-laocunzhang.prototype.kill_boar_quest = function(who) {
-	var desc = _daemons.questd.quest_desc(this.quests['first'], who);
-	FUNCTIONS.message_vision("$N对$n说到：" + desc, this, who);
+laocunzhang.prototype.inquiry_kill_boar = function(who) {
+	_daemons.questd.accept_quest(this, who, this.quests['kill_rat']);
 }
 
 module.exports = laocunzhang;

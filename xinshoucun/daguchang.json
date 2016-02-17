@@ -1,0 +1,10 @@
+{
+	"name":"打谷场",
+	"desc":"位于小村落南部地势较高的一处平地，被村民们用作打谷场，晾晒着各种收获，因此也招来山里的老鼠光顾，老鼠活动的痕迹简直随处可见。",
+	"exits": {
+		"north" : "xinshoucun/cunzhongyang"
+	},
+	"objs" : {
+		"xinshoucun/npc/rat" : 6
+	}
+}
