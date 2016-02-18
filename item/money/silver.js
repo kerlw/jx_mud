@@ -10,6 +10,6 @@ var silver = fm.extend(function() {
 	this.base_value = 100;
 	this.base_unit = "两";
 	this.base_weight = 50;
-}, _std.items.money);
+}, _std.item.money);
 
 module.exports = silver;

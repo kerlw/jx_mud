@@ -10,6 +10,6 @@ var coin = fm.extend(function() {
 	this.base_value = 1;
 	this.base_unit = "文";
 	this.base_weight = 5;
-}, _std.items.money);
+}, _std.item.money);
 
 module.exports = coin;

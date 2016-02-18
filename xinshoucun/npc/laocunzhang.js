@@ -11,12 +11,14 @@ var laocunzhang = fm.extend(function() {
 			type : "kill",
 			count : 4,
 			reward : {
-				martial_exp : 40,
+ 				martial_exp : 40,
 				social_exp : 40
 			}
 		}
 	}
 	this.add_inquiry("kill_boar", "帮助捕杀老鼠", this.inquiry_kill_boar);
+	
+	_daemons.questd.setup_publisher(this);
 }, fm.NPC);
 
 laocunzhang.prototype.visiable_inquiry = function(id, who) {
