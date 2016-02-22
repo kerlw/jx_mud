@@ -5,6 +5,10 @@
 		"north" : "xinshoucun/cunzhongyang"
 	},
 	"objs" : {
-		"xinshoucun/npc/rat" : 8
+		"xinshoucun/npc/rat" : 6
+	},
+	"reset" : {
+		"timeout" : 10,
+		"repeat" : 1
 	}
 }

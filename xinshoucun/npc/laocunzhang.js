@@ -9,10 +9,10 @@ var laocunzhang = fm.extend(function() {
 			target : "xinshoucun/npc/rat",
 			desc : "村子南边的打谷场上是村民们晒谷子的地方，经常有老鼠光顾，请帮助村民们捕杀$(HIR) $count$ $NOR只老鼠吧。",
 			type : "kill",
-			count : 3,
+			count : 2,
 			reward : {
- 				martial_exp : 40,
-				social_exp : 40
+ 				martial_exp : 10,
+				social_exp : 10
 			}
 		}
 	}
