@@ -8,7 +8,7 @@
 		"xinshoucun/npc/rat" : 6
 	},
 	"reset" : {
-		"timeout" : 10,
+		"timeout" : 120,
 		"repeat" : 1
 	}
 }
