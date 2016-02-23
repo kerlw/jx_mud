@@ -5,6 +5,8 @@ function skill_fun() {
 		return new skill_fun();
 }
 
+skill_fun.combat = {};
+
 // combat系数
 skill_fun.combat.ratio = function(skill, lv) {
 	switch (Math.ceil( lv / 10)) {
