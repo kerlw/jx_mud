@@ -106,6 +106,7 @@ var laocunzhang = fm.extend(function() {
 			}
 		}
 	}
+	this.add_inquiry("here", "这里", "$N对$n耐心的说道：我们的祖先多少年前迁徙到这里已经无从考证，这里依山傍水，与世无争，当真是一个世外桃源。");
 	this.add_inquiry("kill_rat", "帮助捕杀老鼠", this.inquiry_kill_rat);
 	
 	this.set_tmp('lazy_init', 1);
