@@ -26,12 +26,16 @@ laocunzhang.prototype.lazy_init = function() {
 	_daemons.questd.setup_publisher(this);	
 }
 
+laocunzhang.prototype.setup_commands = function(who) {
+	if (who.query_tmp('newbie_refresh')) {
+		who.del_tmp('newbie_refresh');
+		FUNCTIONS.message_vision("$N拍拍$n的肩膀鼓励到：别灰心，继续努力。", this, who);
+	}
+}
+
 laocunzhang.prototype.visiable_inquiry = function(id, who) {
-	if (!who && !who.is_player())
+	if (!who || !who.is_player())
 		return 0;
-	
-	if (id === 'here')
-		return 1;
 	
 	if (id === 'kill_rat') {
 		if (who.query_flag('q_kill_rat_done'))
@@ -42,6 +46,7 @@ laocunzhang.prototype.visiable_inquiry = function(id, who) {
 			return 1;
 		return 0;
 	}
+	return 1;
 }
 
 laocunzhang.prototype.inquiry_kill_rat = function(who) {
@@ -66,7 +71,7 @@ laocunzhang.prototype.inquiry_kill_rat = function(who) {
 }
 
 laocunzhang.prototype.inquiry_world = function(who) {
-	FUNCTIONS.message_vision("$N对$n哈哈笑道:哈哈哈哈……我这就送你去大千世界见识一番吧。", this, who);
+	FUNCTIONS.message_vision("$N对$n哈哈笑道：哈哈哈哈……我这就送你去大千世界见识一番吧。", this, who);
 	FUNCTIONS.tell_object(who, "\n$(WHT)一道刺眼的白光让你不自觉的闭上了双眼，你只觉得天旋地转，似正坠入无底深渊般……$NOR");
 	who.set_tmp('entering_world', 1);
 	who.move_to(_objs.rooms['xiangyang/chengnankezhan']);
