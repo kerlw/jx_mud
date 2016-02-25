@@ -4,7 +4,6 @@ var unarmed = fm.extend(function() {
 	if (!(this instanceof unarmed))
 		return new unarmed();
 	
-	this.name = "unarmed";
 }, fm.SKILL);
 
 unarmed.prototype.action = function(me, lv, other) {

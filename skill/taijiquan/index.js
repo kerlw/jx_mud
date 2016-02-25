@@ -5,7 +5,7 @@ var taijiquan = fm.extend(function() {
 	if (!(this instanceof taijiquan))
 		return new taijiquan();
 	
-	this.name = 'taijiquan';
+	this.name = '太极拳';
 	this.base_type = 'unarmed';
 }, fm.SKILL);
 
