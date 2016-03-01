@@ -6,12 +6,19 @@ var waiter = fm.extend(function() {
 	this.name = "店小二";
 	this.desc = "油光满面，脸胖腰圆，一脸欠揍的样子。";
 	
+	this.gender = "male";
+	this.race = "humen";
+	
+	this.add_good("item/food/shaoji");
+	
 	this.setup_char();
+	this.setup();
 }, _std.vender);
 
 waiter.prototype.setup_commands = function(who) {
 	if (who.query_tmp('entering_world')) {
 		FUNCTIONS.message_vision("$N对$n赔笑道:这位客官您醒啦，不好意思，今天小店的厨房实在是忙不过来了，不如您在我这里点一些现成的熟食吧。", this, who);
+		who.del_tmp('entering_world');
 	}
 }
 
