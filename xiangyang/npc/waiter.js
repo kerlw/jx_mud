@@ -7,7 +7,7 @@ var waiter = fm.extend(function() {
 	this.desc = "油光满面，脸胖腰圆，一脸欠揍的样子。";
 	
 	this.gender = "male";
-	this.race = "humen";
+	this.race = "human";
 	
 	this.add_good("item/food/shaoji");
 	

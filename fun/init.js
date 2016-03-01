@@ -12,4 +12,6 @@
 	_daemons.chard.register_handle('in_xinshoucun', 'unconcious', refresh_newbie);
 	_daemons.chard.register_handle('in_xinshoucun', 'die', refresh_newbie);
 	
+	global.FUNCTIONS.random_name = r('./name.js');
+	
 })(require);

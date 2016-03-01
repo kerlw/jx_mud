@@ -7,6 +7,7 @@ var chengnankezhan = fm.extend(function() {
 	this.desc = "这里是一间位于襄阳城内南门附件的客栈。";
 	
 	this.set_flag('no_fight', 1);
+	this.exits = { "west" : "xiangyang/nandajie01" };
 
 	this.objs = {
 		'xiangyang/npc/waiter' : 1

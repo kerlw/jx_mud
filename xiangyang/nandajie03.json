@@ -1,0 +1,8 @@
+{
+	"name" : "南大街",
+	"desc" : "",
+	"exits" : {
+		"north" : "xiangyang/nandajie04",
+		"south" : "xiangyang/nandajie02"
+	}
+}
