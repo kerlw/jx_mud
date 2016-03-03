@@ -1,0 +1,11 @@
+{
+	"name" : "西街",
+	"desc" : "这里可以看到整条西街上唯一一家商业性质建筑————鸿鸣酒楼，酒楼的生意非常红火也给西街带来不少生气，当地人常说，如果没有了这家酒楼，西街就将无人问津了。",
+	"exits" : {
+		"west" : "xiangyang/xijie01", 
+		"north" : "xiangyang/junshiqu01",
+		"south" : "xiangyang/hongmingjiulou",
+		"southeast" : "xiangyang/xijie03",
+		"northeast" : "xiangyang/xibeixiang"
+	}
+}

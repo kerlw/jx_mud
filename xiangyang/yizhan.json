@@ -1,0 +1,7 @@
+{
+	"name" : "驿站",
+	"desc" : "这里是驿站，废话。",
+	"exits" : {
+		"east" : "xiangyang/nandajie01"
+	}
+}

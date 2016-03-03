@@ -1,9 +1,10 @@
 {
-	"name" : "南大街",
-	"desc" : "",
+	"name" : "南大街尽头",
+	"desc" : "这是南大街的尽头，紧靠着襄阳城的南城门，街东边是襄阳有名的城南客栈，不少往来商人会选择在这里打尖，街西边是襄阳驿站。",
 	"exits" : {
 		"north" : "xiangyang/nandajie02",
 		"south" : "xiangyang/nanchengmen",
-		"east"  : "xiangyan/chengnankezhan"
+		"east"  : "xiangyang/chengnankezhan",
+		"west"  : "xiangyang/yizhan"
 	}
 }

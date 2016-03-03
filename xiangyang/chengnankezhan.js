@@ -4,7 +4,7 @@ var chengnankezhan = fm.extend(function() {
 	if (!(this instanceof chengnankezhan))
 		return new chengnankezhan();
 	this.name = "城南客栈";
-	this.desc = "这里是一间位于襄阳城内南门附件的客栈。";
+	this.desc = "这里是一间位于襄阳城内南门附近的客栈，南方过来的商人多会途便利而选择在这里打尖。";
 	
 	this.set_flag('no_fight', 1);
 	this.exits = { "west" : "xiangyang/nandajie01" };

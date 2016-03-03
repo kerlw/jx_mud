@@ -1,8 +1,10 @@
 {
 	"name" : "南大街",
-	"desc" : "",
+	"desc" : "襄阳城的南大街，此处往南已经能够清楚看见襄阳城南城门的情况了，此处街西边路旁挂着一个大大的铜钱标志，东边是一杂货铺。",
 	"exits" : {
 		"north" : "xiangyang/nandajie03",
-		"south" : "xiangyang/nandajie01"
+		"south" : "xiangyang/nandajie01",
+		"east" : "xiangyang/zahuopu",
+		"west" : "xiangyang/qianzhuang"
 	}
 }

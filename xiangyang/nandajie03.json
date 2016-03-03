@@ -1,8 +1,11 @@
 {
 	"name" : "南大街",
-	"desc" : "",
+	"desc" : "这里距离官府稍远，人气旺盛了不少，连接着东边一块大空地一起成为了整个襄阳城的闹市，主要还是一些卖菜的因此也被称为菜市。",
 	"exits" : {
 		"north" : "xiangyang/nandajie04",
-		"south" : "xiangyang/nandajie02"
+		"south" : "xiangyang/nandajie02",
+		"east"	: "xiangyang/caishi",
+		"west"	: "xiangyang/"
+			
 	}
 }

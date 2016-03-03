@@ -1,0 +1,10 @@
+{
+	"name" : "西街",
+	"desc" : "",
+	"exits" : {
+		"northwest" : "xiangyang/xijie02",
+		"west" : "xiangyang/hongmingjiulou",
+		"east" : "xiangyang/nandajie04"
+	}
+	
+}

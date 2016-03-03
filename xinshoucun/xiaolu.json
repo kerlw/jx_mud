@@ -1,0 +1,8 @@
+{
+	"name" : "小路",
+	"desc" : "小路穿过池塘，站在这里仔细观瞧才能发现原来池塘是北面山上流下的泉水汇聚而成，呈半环状包住了整个村落。小路南边的池塘中有几簇荷叶，偶可见鱼儿跳跃其中，真个惬意非常。",
+	"exits" : {
+		"west" : "xinshoucun/cunkou",
+		"northeast" : "xinshoucun/cunzhongyang"
+	}
+}

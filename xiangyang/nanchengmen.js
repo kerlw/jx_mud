@@ -7,6 +7,10 @@ var nanchengmen = fm.extend(function() {
 	this.name = "南城门";
 	this.desc = "这里是襄阳城的南城门，一条官道通向湖南，城门口正聚集着一些平民百姓在看城墙上告示栏中的告示。";
 	
+	this.exits = {
+		"north" : "xiangyang/nandajie01"
+	};
+	
 	this.objs = {
 		"npc/guanfu/wujiang" : 1,
 		"npc/guanfu/bing" : 2

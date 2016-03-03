@@ -1,0 +1,7 @@
+{
+	"name" : "杂货铺",
+	"desc" : "杂货铺一间，要说有什么特点，那就是门特别宽",
+	"exits" : {
+		"west" : "xiangyang/nandajie02"
+	}
+}

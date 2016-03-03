@@ -1,0 +1,8 @@
+{
+	"name" : "西街",
+	"desc" : "由于西门的人流量小，西街也成了整个襄阳城最冷清的街道。对襄阳的西城区来说，西街已经成了自然分界线，往南是民宅，往北是军事区域。",
+	"exits" : {
+		"west" : "xiangyang/xichengmen",
+		"southeast" : "xiangyang/xijie02"	
+	}
+}

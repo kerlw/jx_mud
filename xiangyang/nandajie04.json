@@ -1,8 +1,10 @@
 {
 	"name" : "南大街",
-	"desc" : "",
+	"desc" : "此处是南大街的北头，官府大门就在此地不远处，所以整条男大街这里最靠近襄阳城中心，然而看起来却并不热闹。",
 	"exits" : {
 		"north" : "xiangyang/guanfudamen",
-		"south" : "xiangyang/nandajie03"
+		"south" : "xiangyang/nandajie03",
+		"east"  : "xiangyang/dongjie03",
+		"west"	: "xiangyang/xijie03"
 	}
 }
