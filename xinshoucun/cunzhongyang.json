@@ -5,8 +5,9 @@
 		"no_fight" : 1
 	},
 	"exits": {
+		"north" : "xinshoucun/xiaolu2",
 		"west" : "xinshoucun/cunkou",
-		"south" : "xinshoucun/daguchang"
+		"south" : "xinshoucun/xiaolu4"
 	},
 	"objs" : {
 		"xinshoucun/npc/laocunzhang" : 1

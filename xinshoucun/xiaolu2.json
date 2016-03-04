@@ -1,0 +1,11 @@
+{
+	"name" : "村中小路",
+	"desc" : "村中的小路，向北通向北面山脚下的几间茅屋，向南是村中央广场。",
+	"kvs" : {
+		"no_fight" : 1
+	},
+	"exits" : {
+		"north" : "xinshoucun/xiaolu3",
+		"south" : "xinshoucun/cunzhongyang"
+	}
+}

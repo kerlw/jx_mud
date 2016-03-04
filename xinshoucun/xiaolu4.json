@@ -1,0 +1,11 @@
+{
+	"name" : "村中小路",
+	"desc" : "沿着池塘边的村中小路，周边有几户人家，往南是一块地势较高的平地，被村民们用做打谷场了。",
+	"kvs" : {
+		"no_fight" : 1
+	},
+	"exits" : {
+		"north" : "xinshoucun/cunzhongyang",
+		"south" : "xinshoucun/daguchang"	
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name" : "村中小路",
+	"desc" : "这里有几间茅屋，每户人家都用简易的篱笆在屋前围了一个小院。此处西边是池塘，从这里望过去可以看见一些村民正在池塘边担水。",
+	"kvs" : {
+		"no_fight" : 1
+	},
+	"exits" : {
+		"north" : "xinshoucun/xiaoyuan",
+		"west" : "xinshoucun/chitangbian",
+		"south" : "xinshoucun/xiaolu2"	
+	}
+}
