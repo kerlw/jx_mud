@@ -19,7 +19,7 @@ var daguchang = fm.extend(function() {
 
 daguchang.prototype.reset = function() {
 	this.base.prototype.reset.apply(this, arguments);
-	
+
 	var boarid = "xinshoucun/npc/boar#0";
 	if (this.contains[boarid]) {
 		if (FUNCTIONS.random(10) >= 6) {

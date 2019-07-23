@@ -6,7 +6,6 @@ var bing = fm.extend(function() {
 	if (!(this instanceof bing))
 		return new bing();
 	
-	console.log("create yayi " + typeof(random_name));
 	this.name = random_name(1);
 	this.desc = "虽然官兵的武艺不能和武林人士相比，可是他们讲究的是人多力量大。";
 	this.age = 22 + random(33);

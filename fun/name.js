@@ -111,7 +111,7 @@ var random_name = function(gender) {
 			}
 		}
 	}
-	console.log("random name created name : "  + ret);
+    logger.debug("random name created name : "  + ret);
 	return ret;
 }
 
